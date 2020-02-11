@@ -33,7 +33,7 @@ function iLoveTheBeatles(x){
   do{
     sentence[i] = "I love the Beatles!";
     i++
-  } while (x < 15 && i < x);
+  } while (x < 15 && i <= x);
   return sentence;
 }
 
